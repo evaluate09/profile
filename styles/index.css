@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@keyframes gameslide {
+  0% {
+    background-image: url("../images/game1.jpg");
+  }
+  10% {
+    background-image: url("../images/game2.jpg");
+  }
+  20% {
+    background-image: url("../images/game3.jpg");
+  }
+  30% {
+    background-image: url("../images/game4.png");
+  }
+  40% {
+    background-image: url("../images/game5.jpg");
+  }
+  50% {
+    background-image: url("../images/game6.jpg");
+  }
+  60% {
+    background-image: url("../images/game7.jpg");
+  }
+  70% {
+    background-image: url("../images/game8.jpg");
+  }
+  80% {
+    background-image: url("../images/game9.jpg");
+  }
+  90% {
+    background-image: url("../images/game10.jpg");
+  }
+  100% {
+    background-image: url("../images/game1.jpg");
+  }
+}
+body {
+  background-image: url("../images/sky.jpg");
+  background-size: 200vh;
+  background-position: center;
+  margin: 0;
+  color: #e0e0e0;
+}
+
+img {
+  height: 20%;
+}
+
+a {
+  height: 3%;
+  width: 60%;
+  font-size: 2vh;
+  padding: 1% 0% 1% 0%;
+  margin: 2.5%;
+  background-image: url("../images/moarsky.jpg");
+  background-size: 100%;
+  color: #161616;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+a:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  font-size: 4vh;
+}
+
+p {
+  font-size: 2vh;
+  max-width: 80%;
+}
+
+dt {
+  font-size: 2vh;
+}
+
+.outline {
+  min-height: 80vh;
+  min-width: 80vh;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5%;
+  border-color: #e0e0e0;
+  scroll-snap-align: center;
+}
+
+.blank {
+  border-style: none;
+}
+
+.image {
+  background-position: center;
+}
+
+#img1 {
+  background-image: url("../images/cuute.gif");
+  background-size: 100%;
+}
+
+#img2 {
+  background-image: url("../images/forest.gif");
+  background-size: 200%;
+}
+
+#img3 {
+  background-image: url("../images/totoroumbrella.gif");
+  background-size: 100%;
+}
+
+#games {
+  height: 50%;
+  width: 50%;
+  border-radius: 20%;
+  background-size: 175%;
+  background-position: center;
+  animation: gameslide 15s linear 0s infinite;
+}
+
+#github {
+  background-position: 50% 50%;
+}
+
+#youtube {
+  background-position: 50% 70%;
+}
+
+#linkedin {
+  background-position: 50% 90%;
+}
+
+#secret {
+  all: revert;
+  font-size: 2vh;
+  text-decoration: none;
+  color: #e0e0e0;
+}
+
+#jump {
+  all: revert;
+  font-size: 2vh;
+  color: #e0e0e0;
+}
+
+#plate {
+  font-family: "Ubuntu", sans-serif;
+  height: 90vh;
+  width: 90vh;
+  margin-top: 5vh;
+  background-color: rgba(31, 45, 64, 0.7);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  scrollbar-width: none;
+  scroll-snap-type: y mandatory;
+}
+#plate ::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  padding: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=index.css.map */
